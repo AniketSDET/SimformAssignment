@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="97959" started-at="2021-10-24T14:42:23Z" finished-at="2021-10-24T14:44:01Z">
+  <suite name="Suite" duration-ms="174109" started-at="2021-10-24T14:57:53Z" finished-at="2021-10-24T15:00:47Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="97959" started-at="2021-10-24T14:42:23Z" finished-at="2021-10-24T14:44:01Z">
+    <test name="Test" duration-ms="174109" started-at="2021-10-24T14:57:53Z" finished-at="2021-10-24T15:00:47Z">
       <class name="TestSuite.SimformAssignment">
-        <test-method status="PASS" signature="Execution()[pri:0, instance:TestSuite.SimformAssignment@3159c4b8]" name="Execution" duration-ms="97880" started-at="2021-10-24T20:12:23Z" finished-at="2021-10-24T20:14:01Z">
+        <test-method status="PASS" signature="Execution()[pri:0, instance:TestSuite.SimformAssignment@3159c4b8]" name="Execution" duration-ms="174026" started-at="2021-10-24T20:27:53Z" finished-at="2021-10-24T20:30:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Execution -->

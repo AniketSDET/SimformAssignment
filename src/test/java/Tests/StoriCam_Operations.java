@@ -41,6 +41,7 @@ public class StoriCam_Operations extends Super {
 	public void TestCase1() throws InterruptedException{
 		
 		String url = driver. getCurrentUrl();
+		//Added a softassert as there is mismatch in the URL
 		SoftAssert softassert = new SoftAssert();
 		softassert.assertEquals(url, "https://storicam.austinconversionoptimization.com/#/login");
 		
@@ -123,6 +124,8 @@ public class StoriCam_Operations extends Super {
 		js.executeScript("arguments[0].value='TestComment'", CommentText);
 		
 		CommentText.sendKeys(Keys.ENTER);
+		
+		
 	
 		
 	}
