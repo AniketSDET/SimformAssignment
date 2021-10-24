@@ -118,7 +118,7 @@ public class StoriCam_Operations extends Super {
 		WebDriverWait wait = new WebDriverWait(driver,10);
 		wait.until(ExpectedConditions.elementToBeClickable(Comment));
 		Comment.click();
-		
+		CommentText.click();
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].value='TestComment'", CommentText);
 		
